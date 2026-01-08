@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#border{
+    height: 90%;
+    width: 95%;
+    border: 2px solid orange;
+    border-radius: 20px;
+    position: absolute;
+    top: 5%;
+    left: 2.5%;
+}
+#nav{
+    height: 15%;
+    width: 98%;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 1% 1%;
+
+}
+
+#nav h1{
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    margin: 20px;
+}
+
+#border #count{
+    color: orange;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#count-box #increase{
+    width: 20%;
+    background-color: transparent;
+    color: white;
+    border: 2px solid orange;
+    border-radius: 10px;
+    font-size: 75px;
+    font-weight: 100;
+    margin-top: 19%;
+    margin-left: 20%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+}
+#count-box #decrease{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 75px;
+    margin-top: 25%;
+    margin-left: 20%;
+    font-family: cursive;
+    font-weight: 400;
+}
+#count-box #restart{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 75px;
+    margin-top: 19%;
+    margin-left: 15%;
+    font-family: cursive;
+    font-weight: 400;
+}
+
+@media (max-width: 600px){
+    #main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#border{
+    height: 95%;
+    width: 95%;
+    border: 2px solid orange;
+    border-radius: 20px;
+    position: absolute;
+    top: 2%;
+    left: 2.5%;
+}
+#nav{
+    height: 10%;
+    width: 98%;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 2% 1%;
+
+}
+
+#nav h1{
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    margin: 20px;
+}
+
+#border #count{
+    color: orange;
+    position: absolute;
+    left: 31.5%;
+    top: 30%;
+    font-size: 150px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#count-box #increase{
+    width: 40%;
+    background-color: transparent;
+    color: white;
+    border: 2px solid orange;
+    border-radius: 10px;
+    font-size: 50px;
+    font-weight: 100;
+    margin-top:500px;
+    margin-left: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+}
+#count-box #decrease{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 75px;
+    margin-top: 99%;
+    margin-left: 10%;
+    font-family: cursive;
+    font-weight: 400;
+}
+#count-box #restart{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 75px;
+    margin-top: 99%;
+    margin-left: 9%;
+    font-family: cursive;
+    font-weight: 400;
+}
+
+}
